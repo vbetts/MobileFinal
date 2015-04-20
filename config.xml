@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.youarehere" version="0.0.3">
+
+    <name>You are here</name>
+
+    <description>
+        You are here example
+    </description>
+    <content src="www/index.html" />
+    <author href="https://rhildred.github.io" email="rhildred@gmail.com">
+        Rich Hildred and Mobile App Class of 2015
+    </author>
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="de.appplant.cordova.plugin.badge" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+</widget>
